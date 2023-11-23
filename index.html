@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./resources/favicon.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/movies_list.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arimo&family=IBM+Plex+Mono&family=Inter:wght@400;700&family=Manrope:wght@400;700&family=Ubuntu:wght@300;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Movies</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="inner__block">
+          <div class="header__wrapper">
+            <p>список фильмов</p>
+            <p>2023</p>
+          </div>
+          <h1>Посмотреть</h1>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="container background">
+        <div class="inner__block">
+          <input
+            id="inputMovies"
+            class="input"
+            type="text"
+            placeholder="Добавить фильм"
+          />
+          <button id="btnGetMovies" class="button">
+            <img class="button__img" src="./resources/arrow.png" alt="" />
+          </button>
+          <ul id="movieList" class="movie__list"></ul>
+        </div>
+      </div>
+    </main>
+    <footer></footer>
+    <script src="script.js"></script>
+  </body>
+</html>

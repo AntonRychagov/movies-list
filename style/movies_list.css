@@ -1,0 +1,64 @@
+.movie__list {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 10px;
+}
+
+.movie__item {
+  max-width: 790px;
+  background-color: rgba(58, 57, 57, 1);
+  padding: 29px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.active {
+  text-decoration: line-through;
+  color: rgba(243, 246, 249, 1);
+  opacity: 40%;
+}
+
+.movie__inner {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.movie__checkbox {
+  width: 19px;
+  height: 19px;
+  border: 1px solid #adb5bd;
+  border-radius: 50%;
+  appearance: none;
+}
+
+.checked {
+  background-color: rgba(101, 50, 248, 1);
+}
+
+.movie__title {
+  color: rgba(243, 246, 249, 1);
+  font-size: 20px;
+  word-wrap: break-word;
+  white-space: pre-line;
+}
+
+.btn__cross {
+  width: 23px;
+  height: 23px;
+  background-image: url(../resources/cross.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.btn__cross img {
+  pointer-events: none;
+}
