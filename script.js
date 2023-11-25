@@ -179,5 +179,5 @@ if (localStorage.getItem('movies')){
     // преобразуем JSON строку в обьект JS
     movies = JSON.parse(localStorage.getItem('movies')); 
     //Рендер из LS
-    movies.forEach((movie) => renderMovies(movie));
+    movies.forEach((movie) => renderMovies());
 }
